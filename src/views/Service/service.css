@@ -1,0 +1,44 @@
+.service {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.service h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.service > p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.service__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.service__item {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.service__item h2 {
+    margin-bottom: 0.75rem;
+    color: #2f3e2f;
+}
+
+.service__item p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
