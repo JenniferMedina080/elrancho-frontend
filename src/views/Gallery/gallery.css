@@ -4,3 +4,12 @@
     padding: 1.5rem;
     text-align: center;
 }
+
+.about__image {
+    text-align: center;
+}
+
+.about__image img {
+    width: 600px;
+    max-width: 100%;
+}
