@@ -1,0 +1,68 @@
+.navbar {
+    display: flex; /*alinear de forma horizontal*/
+    justify-content: space-between; /*se ocupe todo el ancho del nav*/
+    align-items: center; /*centrar verticalmente*/
+
+    padding: 1rem 2rem; /*agregar espacios interno*/
+
+    /*background-color: white;*/ /*Fondo*/
+    background-color: #684E32;
+
+    border-bottom: 1px solid #ddd; /*agrega linea inferior*/
+}
+
+.navbar__brand{ /*clase marca*/
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.navbar__logo{
+    width:100px; /*ancho*/
+}
+
+.navbar__title{
+    font-size:1.4rem; /*tamaño de letra*/
+    font-weight:bold; /*grosor de la letra*/
+    color: white;
+}
+
+.navbar__menu{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:2rem; /*brecha*/
+
+    margin:0; /*margen*/
+
+    padding:0; /*relleno*/
+
+    color: white;
+
+}
+
+.navbar__menu a{ /*todos los enlaces a*/
+
+    text-decoration:none; /*quiat subrayado por defecto*/
+
+    color: white;
+
+    font-weight:500; /*grosor*/
+
+}
+
+.navbar__button{
+
+    background:#6b8f47;
+
+    color:white;
+
+    padding:.7rem 1.4rem;
+
+    border-radius:6px;
+
+    text-decoration:none;
+
+}
