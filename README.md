@@ -1,4 +1,4 @@
-# **El Rancho: Frontend**
+git add .# **El Rancho: Frontend**
 
 El frontend de El Rancho Hospedaje es una landing page desarrollada con HTML, CSS y JavaScript, diseñada para mostrar la información del hospedaje, sus servicios, galería y contacto, además de permitir a los usuarios enviar solicitudes de reserva mediante un formulario conectado al backend.
 
